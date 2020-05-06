@@ -1,5 +1,5 @@
 # GCluster
 
 
-[code1 for fig 1](R/i2d.R) ![fig 1](examples/do_3d_2C.gif) [code2](R/i2d.R) ![](examples/do_3d_2C_v2.gif) ![](examples/do_3d_C.gif) 
+[code](R/i2d.R) ![](examples/do_3d_2C.gif) [](R/i2d.R) ![](examples/do_3d_2C_v2.gif) ![](examples/do_3d_C.gif) 
 ![](examples/do_3d_C2.gif) ![](examples/do_3d_U.gif)
