@@ -52,9 +52,16 @@ install_github("Displayr/flipPlots")
 [R codes](examples/12do_tjGCluster4.R) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 
 ## Options: i2d function of the package
-### convert image to digital (generate complex data sets for cluster algorithm evaluation)
+### Convert image to digital (generate complex data sets for cluster algorithm evaluation)
 <img src="examples/i2d/01do_GCluster01.png" width="300" height="300">  <img src="examples/i2d/02do_GCluster04_1.png" width="300" height="300">
  
 <img src="examples/i2d/02do_GCluster04_2.png" width="300" height="300">  <img src="examples/i2d/02do_GCluster04_3.png" width="300" height="300">
  
 [R codes](examples/i2d/01do_GCluster01.R) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [R codes](examples/i2d/02do_GCluster04.R) 
+
+Convert the image (top) to digital (bottom plot)
+<img src="examples/i2d/01_1_top_i2d.png" width="300" height="100">  <img src="examples/i2d/01_2_top_i2d.png" width="300" height="100"> <img src="examples/i2d/01_3_top_i2d.png.png" width="300" height="100">
+  
+
+
+
