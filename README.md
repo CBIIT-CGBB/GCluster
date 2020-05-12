@@ -61,7 +61,7 @@ install_github("Displayr/flipPlots")
 
 Convert the image (top) to digital (bottom plot)
   
-<img src="examples/i2d/01_1_top_i2d.png" width="300" height="100">  <img src="examples/i2d/01_2_top_i2d.png" width="300" height="100"> <img src="examples/i2d/01_3_top_i2d.png" width="300" height="100">
+<img src="examples/i2d/01_1_top_i2d.png" width="250" height="100">  <img src="examples/i2d/01_2_top_i2d.png" width="250" height="100"> <img src="examples/i2d/01_3_top_i2d.png" width="100" height="100">
   
 
 
