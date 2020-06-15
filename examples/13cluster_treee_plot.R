@@ -19,7 +19,6 @@ for (i in 2:length(clu.n)){
   out.i <- which(out[,1]==clu);
   cols  <- rainbow(length(out.i), alpha=0.6);
   points(out[out.i, c(3,4)], pch=19, cex=out[out.i,6]*0.6, col=cols);
-  #text(out[out.i,3], out[out.i,4]+0.1, cex=0.25);
 }
 
 dev.off();
