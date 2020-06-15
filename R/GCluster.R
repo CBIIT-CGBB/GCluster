@@ -18,10 +18,14 @@ merge_short_dist <- function(dat.m, k){
     x.m <- mean(dat.m[c(r1.i, r2.i), 1]);
     y.m <- mean(dat.m[c(r1.i, r2.i), 2]);
     ## remove the merged nodes
+    oth.n <- row.names(dat.m)[-c(r1.i, r2.i)];  ## for nrow==2 only
     dat.m <- dat.m[-c(r1.i, r2.i),];
     ## add the new node, the average of the coordinates of the merged nodes 
     dat.m <- rbind(dat.m, c(x.m, y.m));
     ## name the new node names 
+    if (dim(dat.m)[1]==2){
+      row.names(dat.m)[1] <- oth.n;
+    }
     row.names(dat.m)[nrow(dat.m)] <- paste0(r1, ".", r2);
     ## 
     if (nrow(dat.m) <= k){
@@ -148,7 +152,8 @@ GCluster <- function(dat=dat, wt=4, k=NULL, method="louvain"){
     return(out);
   } 
   
-  ## calculate the centers of the cluster
+  ## if clu.n > k
+  ## calculate the centers of the clusters
   out.s <- NULL;
   for (i in 1:clu.n){
     s.i <- which(clu.i == i);
