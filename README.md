@@ -2,7 +2,7 @@
 ####
 ``` r
 library(devtools)
-install_github("Displayr/flipPlots")
+install_github("CBIIT-CGR/GCluster")
 ``` 
  
 # Examples:
