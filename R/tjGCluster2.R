@@ -2,7 +2,7 @@ tjGCluster2 <- function(m, from=NULL, to=NULL, cutoff=25){
   tj.out   <- tjGCluster(m, from=from, to=to);
   br.list  <- branch_list(tj.out$mst, tj.out$node);
   br.len   <- unlist(lapply(br.list, length));
-  br.i     <- which(br.len > 26);
+  br.i     <- which(br.len > cutoff);
   if (length(br.i) < 1){
     return(list(coord=tj.out$coord, node=tj.out$node, mst=tj.out$mst, level=br.list));
   }
