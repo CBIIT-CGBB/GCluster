@@ -2,7 +2,7 @@
 ####
 ``` r
 library(devtools)
-install_github("CBIIT-CGR/GCluster")
+install_github("CBIIT-CGBB/GCluster")
 ``` 
  
 # Examples:
