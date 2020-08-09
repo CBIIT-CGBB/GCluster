@@ -117,12 +117,13 @@ GCluster <- function(dat=dat, wt=4, k=NULL, method="louvain"){
   clu.i   <- out$membership;
   clu.n   <- length(unique(clu.i));
   wt0     <- wt;
+  wtn.    <- wt/10;
 
   ## BEGIN: if the cluster number < k
   if (clu.n < k){
     do.cluster <- TRUE;
     while (do.cluster){
-      wt0     <- wt0 - 0.5;
+      wt0     <- wt0 - wtn;
       g       <- g0;
       w.i     <- which(E(g)$weight > wt0);
       igraph::E(g)$weight[w.i] <- 0;
