@@ -117,7 +117,7 @@ GCluster <- function(dat=dat, wt=4, k=NULL, method="louvain"){
   clu.i   <- out$membership;
   clu.n   <- length(unique(clu.i));
   wt0     <- wt;
-  wtn.    <- wt/10;
+  wtn     <- wt/10;
 
   ## BEGIN: if the cluster number < k
   if (clu.n < k){
