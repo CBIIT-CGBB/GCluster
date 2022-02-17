@@ -59,7 +59,7 @@ install_github("CBIIT-CGBB/GCluster")
 [R codes for plotting](examples/13cluster_tree_plot.R) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 
 
-## Options: i2d function of the package
+## Options: [i2d](https://academic.oup.com/bioinformatics/article/37/16/2497/6007260) function of the package
 ### Convert image to digital (generate complex data sets for cluster algorithm evaluation)
 <img src="examples/i2d/01do_GCluster01.png" width="300" height="300">  <img src="examples/i2d/02do_GCluster04_1.png" width="300" height="300">
  
