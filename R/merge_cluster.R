@@ -17,8 +17,9 @@ merge_cluster <- function(dat, cutoff=5){
   if (length(clu.i) < 1){
     stop("no cluster size < the cutoff")
   }
-  clu.u <- unique(dat[,3]);
-  out.s <- NULL;
+  small.c <- names(clu.t)[clu.i]
+  clu.u   <- unique(dat[,3]);
+  out.s   <- NULL;
   for (c.i in clu.u){
     i     <- which(dat[,3]==c.i);
     out.s <- rbind(out.s, c(c.i, mean(dat[i,1]), mean(dat[i,2])));
